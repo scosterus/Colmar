@@ -54,3 +54,25 @@ nav li {
 nav a {
     text-decoration: none;
 }
+
+/*
+Header icons are hidden in desktop view
+*/
+@media only screen and (min-width: 800px) {
+    .icon {
+        display: none;
+    }
+}
+
+/*
+Header on mobile devices
+*/
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+
+    header span, nav {
+        display: none;
+    }
+  }
