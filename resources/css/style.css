@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, span, h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat;
+    color: rgb(69, 69, 69);
+}
+
+header {
+    height: 64px;
+    max-width: 100%;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colmar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.colmar-img{
+    height: 32px;
+}
+
+header span {
+    color: rgb(142, 142, 142);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header span strong {
+    color: rgb(40, 40, 40);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 16px;
+}
+
+nav a {
+    text-decoration: none;
+}
