@@ -16,6 +16,10 @@ p, a, span, h1, h2, h3, h4, h5, h6 {
     color: rgb(69, 69, 69);
 }
 
+h2 {
+    font-size: 32px;
+}
+
 header {
     max-width: 100%;
 }
@@ -170,7 +174,6 @@ Header on mobile devices
 }
 
 .main-left h2 {
-    font-size: 32px;
     margin-top: 32px;
 }
 
@@ -236,4 +239,77 @@ Main content mobile
         width: 100%;
         padding: 0;
     }
+}
+
+.learn {
+    background-color: rgb(233, 233, 233);
+    max-width: 100%;
+}
+
+.learn-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.boxes h4 {
+    font-size: 20px;
+}
+
+.boxes {
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.box {
+    background-color: white;
+    max-width: 31%;
+    margin-bottom: 32px;
+}
+
+.box-text {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.box-text p {
+    margin-top: 8px;
+}
+
+.exhibit {
+    text-align: center;
+    margin-top: 32px;
+}
+
+video {
+    max-width: 100%;
+}
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: rgb(233, 233, 233) solid 1px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 64px;
+}
+
+.footer-content nav{
+    font-size: 15px;
 }
